@@ -1,5 +1,5 @@
 # MIPS-I-architecture-emulator
- A simple MIPS processor simulator written in Python. The goal is to provide an educational and research-oriented implementation that models the core functionality of a MIPS CPU, including instruction fetch, decode, execution, memory access, and write-back.
+ A simple MIPS processor simulator written in Python. The goal is to provide an educational and research-oriented implementation that models the core functionality of a MIPS CPU, including instruction fetch, decode, execution, memory access, and write-back.<br/>
 
 This project can be used to explore computer architecture concepts, test MIPS assembly programs, or serve as a base for further research and development.
 
@@ -32,15 +32,15 @@ This project can be used to explore computer architecture concepts, test MIPS as
 
 ## Example
 
-Input Program (program.txt):
-addi $t0, $zero, 5 
-addi $t1, $zero, 10 
-add $t2, $t0, $t1
+Input Program (program.txt):<br/>
+addi $t0, $zero, 5 <br/>
+addi $t1, $zero, 10 <br/>
+add $t2, $t0, $t1<br/>
 
 Expected Output:
-$t0 = 5 
-$t1 = 10 
-$t2 = 15
+$t0 = 5 <br/>
+$t1 = 10 <br/>
+$t2 = 15<br/>
 
 
 ## Getting Started
@@ -51,10 +51,10 @@ $t2 = 15
 
 ### Running the Simulator
 
-1. Clone this repository:
+1. Clone this repository:<br/>
 git clone https://github.com/yourusername/mips-sim-python.git cd mips-sim-python
 
-2. Run the simulator:
+2. Run the simulator:<br/>
 python main.py
 
 3. Edit `program.txt` to write your own MIPS assembly programs.
@@ -81,9 +81,6 @@ This project aims to:
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Author
-
-Your Name  
 GitHub: https://github.com/achintyaPiko
 
 
