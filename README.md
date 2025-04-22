@@ -33,15 +33,18 @@ This project can be used to explore computer architecture concepts, test MIPS as
 ## Example
 
 Input Program (program.txt):<br/>
+```
 addi $t0, $zero, 5 <br/>
 addi $t1, $zero, 10 <br/>
 add $t2, $t0, $t1<br/>
+```
 
-Expected Output:
+Expected Output:<br/>
+```
 $t0 = 5 <br/>
 $t1 = 10 <br/>
 $t2 = 15<br/>
-
+```
 
 ## Getting Started
 
