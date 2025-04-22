@@ -87,6 +87,11 @@ This project aims to:
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Reference Used<br/>
+[MIPS-I Assembly Language Instruction Set](https://user.eng.umd.edu/~manoj/759M/MIPSALM.html)<br/>
+[MIPS Green Sheet](https://courses.cs.washington.edu/courses/cse378/09au/MIPS_Green_Sheet.pdf)
+
+
 GitHub: https://github.com/achintyaPiko
 
 
