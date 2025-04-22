@@ -1,16 +1,11 @@
 # MIPS-I-architecture-emulator
- A simple MIPS processor simulator written in Python. Implements a subset of the MIPS32 instruction set architecture for educational purposes. Simulates fetch-decode-execute cycle, register and memory operations, and basic control flow.
-
-
- # MIPS32 CPU Simulator in Python
-
-This repository contains a Python-based simulator for a simplified MIPS32 processor architecture. The goal is to provide an educational and research-oriented implementation that models the core functionality of a MIPS CPU, including instruction fetch, decode, execution, memory access, and write-back.
+ A simple MIPS processor simulator written in Python. The goal is to provide an educational and research-oriented implementation that models the core functionality of a MIPS CPU, including instruction fetch, decode, execution, memory access, and write-back.
 
 This project can be used to explore computer architecture concepts, test MIPS assembly programs, or serve as a base for further research and development.
 
 ## Features
 
-- Simulates a subset of the MIPS32 instruction set
+- Simulates a subset of the MIPS-I (32-bit) instruction set
 - Instruction types supported:
   - Arithmetic and logical instructions (`add`, `sub`, `and`, `or`, `slt`)
   - Immediate instructions (`addi`, `andi`, `ori`)
