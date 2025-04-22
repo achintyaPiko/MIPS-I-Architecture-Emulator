@@ -77,11 +77,10 @@ This project aims to:
 ## Future Work
 
 - Support for full MIPS32 instruction set
-- Multi-cycle and pipelined architecture versions
-- Cache memory simulation
 - Assembler integration for raw `.asm` files
 - C-based version for embedded system simulation
 - GUI for visualization of instruction cycles and registers
+- Verilog implementation of the above architecture for FPGA  
 
 ## License
 
