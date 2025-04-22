@@ -34,16 +34,16 @@ This project can be used to explore computer architecture concepts, test MIPS as
 
 Input Program (program.txt):<br/>
 ```
-addi $t0, $zero, 5 <br/>
-addi $t1, $zero, 10 <br/>
-add $t2, $t0, $t1<br/>
+addi $t0, $zero, 5 
+addi $t1, $zero, 10
+add $t2, $t0, $t1
 ```
 
 Expected Output:<br/>
 ```
-$t0 = 5 <br/>
-$t1 = 10 <br/>
-$t2 = 15<br/>
+$t0 = 5 
+$t1 = 10
+$t2 = 15
 ```
 
 ## Getting Started
@@ -55,11 +55,14 @@ $t2 = 15<br/>
 ### Running the Simulator
 
 1. Clone this repository:<br/>
-git clone https://github.com/yourusername/mips-sim-python.git cd mips-sim-python
-
+```
+git clone https://github.com/achintyaPiko/MIPS-I-Architecture-Emulator.git
+cd MIPS-I-Architecture-Emulator
+```
 2. Run the simulator:<br/>
+```
 python main.py
-
+```
 3. Edit `program.txt` to write your own MIPS assembly programs.
 
 ## Learning Objectives
